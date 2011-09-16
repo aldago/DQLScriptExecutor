@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.documentum.devprog
+Bundle-SymbolicName: com.documentum.devprog.eclipsePlugin; singleton:=true
+Bundle-Version: 2.5.0.0010
+Bundle-ClassPath: devprogPlugin.jar,
+ lib/devprogClasses.jar
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActivator
+Bundle-Vendor: EMC Documentum Developer Program
+Bundle-Localization: plugin
+Export-Package: .,
+ com.documentum.devprog.common,
+ com.documentum.devprog.eclipse,
+ com.documentum.devprog.eclipse.api,
+ com.documentum.devprog.eclipse.bof,
+ com.documentum.devprog.eclipse.common,
+ com.documentum.devprog.eclipse.nav,
+ com.documentum.devprog.eclipse.perspective,
+ com.documentum.devprog.eclipse.properties,
+ com.documentum.devprog.eclipse.query,
+ com.documentum.devprog.eclipse.rcpapp,
+ com.documentum.devprog.eclipse.test,
+ com.documentum.devprog.eclipse.tree,
+ com.documentum.devprog.eclipse.types
+Require-Bundle: org.eclipse.core.runtime.compatibility;visibility:=reexport,
+ org.eclipse.core.runtime;visibility:=reexport,
+ org.eclipse.ui;visibility:=reexport,
+ com.documentum.dfc;visibility:=reexport;bundle-version="1.0.0"
+Eclipse-AutoStart: true
+Plugin-Class: com.documentum.devprog.eclipse.DevprogPlugin

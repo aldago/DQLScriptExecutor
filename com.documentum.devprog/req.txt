@@ -1,0 +1,8 @@
+- should be able to browse the docbase.
+- run DQL/XDQL queries
+- get type information
+- do a properties dump
+- try to dynamically load up DFC.jars. Be able to update them if possible.
+- login dialog
+
+- How to load the properties files.
